@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+@tailwind utilities;
+
+@layer utilities {
+  .size-box {
+    @apply w-8 h-8 border border-white text-white flex justify-center items-center hover:bg-white cursor-pointer duration-300;
+  }
+}
+
+@layer utilities {
+  .size-box {
+    @apply w-8 border border-white text-white flex justify-center items-center hover:bg-white hover:text-[#c11912] cursor-pointer duration-300;
+  }
+}
